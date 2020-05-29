@@ -7,7 +7,9 @@
     height:100px;
     margin:20px 0;
 }
-
+.upper-header{
+    height: 20vh;
+}
 .upper-header ion-icon{
     top: 20px;
     position:absolute;
@@ -62,13 +64,13 @@ header{
 
 header h1{
     position: absolute;
-    top:50%;
+    top:35%;
     left:14%;
 }
 
 header h2{
     position: absolute;
-    top:80%;
+    top:70%;
     left:14%;
     font-size: 25px;
 }
@@ -104,8 +106,60 @@ header form{
     position: absolute;
     width:100%;
     left:14%;
-    bottom:25%;
+    bottom:35%;
 }
+
+/* The side navigation menu */
+.sidenav {
+    height: 0; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow: hidden; /* Disable horizontal scroll */
+    transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+      text-align: center;
+    padding: 32px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    right: 80px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the hamburger menu */
+  .ham-icon {
+      color: white;
+    display: none;
+    position: absolute;
+    right: 4%;
+    top: 3%;
+    transform: scale(1.5);
+  }
+  .ham-icon:hover{
+      color:lightgrey;
+  }
+
 
 /*-------------Reason To Choose-----------------------*/
 .reason-section{
@@ -116,6 +170,9 @@ header form{
 .reason-section ion-icon{
     font-size: 70px;
 }
+.reason-section p{
+    margin-top: 40px;
+}
 
 /*-------------Featured-property-----------------------*/
 .featured-properties{
@@ -124,10 +181,12 @@ header form{
 
 .featured-properties h3{
     text-align: center;
-    margin-bottom: 30px;
     color:#108d6f;
     font-size: 40px;
     margin-bottom: 50px;
+}
+.col-md-3{
+    margin-top: 50px;
 }
 
 .product-grid9,.product-grid9 .product-image9{position:relative}
@@ -148,7 +207,7 @@ header form{
 .product-grid9 .title{font-size:16px;font-weight:400;text-transform:capitalize;margin:0 0 3px;transition:all .3s ease 0s}
 .product-grid9 .title a{color:rgba(0,0,0,.5)}
 .product-grid9 .title a:hover{color:#c0392b}
-.product-grid9 .price{color:#000;font-size:17px;margin:0;display:block;transition:all .5s ease 0s}
+.product-grid9 .price{color:#000;font-size:17px;margin:0;display:block;transition:all .5s ease 0s;}
 .product-grid9:hover .price{opacity:0}
 .product-grid9 .add-to-cart{display:block;color:#c0392b;font-weight:600;font-size:14px;opacity:0;position:absolute;left:10px;bottom:-20px;transition:all .5s ease 0s}
 .product-grid9:hover .add-to-cart{opacity:1;bottom:0}
@@ -171,7 +230,7 @@ header form{
 .section-testimonials h2{
     text-align: center;
     margin-bottom: 100px;
-    margin-left: 455px;
+    width: 100%;
 }
 
 blockquote{
@@ -209,7 +268,7 @@ cite img{
 .section-properties{
     background-color: #fff;
     overflow:hidden;
-    height: 130vh;
+    height: 120vh;
   }
   
   .section-properties h2{

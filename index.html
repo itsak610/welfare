@@ -6,16 +6,19 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
     <link rel="stylesheet" href="vendors/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/home-queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="resources/scripts/script.js"></script>
     <title>JagranNonWelfareSociety</title>
 </head>
-<body>
+<body class="body">
     <div class = "upper-header">
         <img src="resources/img/logo.png" alt="Logo" class = "logo">
-        <div>
+        <div class="phone-div">
             <ion-icon name="call-outline" class = "phone"></ion-icon>
             <h3 class = "phoneh3">Questions?<br>(+91)1234567890</h3>
         </div>
-        <div>
+        <div class="marker-div">
             <ion-icon name="location-outline" class = "marker"></ion-icon>
             <h3 class = "markerh3">Our Office<br>Indore,Bruh Palace</h3>
         </div>
@@ -31,6 +34,18 @@
                 <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="property.html">Property</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </div>
+          
+        <a href="javascript:void(0);" class="ham-icon" onclick="openNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+  
         <form>
             <div class="row">
               <div class="col-md-2">
