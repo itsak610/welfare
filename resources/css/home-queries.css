@@ -60,8 +60,8 @@
     .ham-icon{
         display: block;
     }
-    .phone-div , .phone , .phoneh3{
-        margin-right: 5%;
+    .phone-div{
+        display: none;
     }
 }
 
@@ -127,8 +127,8 @@
     .ham-icon{
         display: block;
     }
-    .phone-div , .phone , .phoneh3{
-        margin-right: 5%;
+    .phone-div{
+        display: none;
     }
 }
     
@@ -195,15 +195,7 @@
         display: block;
     }
     .phone-div{
-        position: absolute;
-        z-index: 10;
-        margin-top: -24%;
-    }
-    .phone{
-        top: 0;
-        left: 0;
-        width: 100%;
-        position: absolute;
+        display: none;
     }
 }
 
