@@ -60,6 +60,9 @@
     .ham-icon{
         display: block;
     }
+    .phone-div , .phone , .phoneh3{
+        margin-right: 5%;
+    }
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
@@ -124,6 +127,9 @@
     .ham-icon{
         display: block;
     }
+    .phone-div , .phone , .phoneh3{
+        margin-right: 5%;
+    }
 }
     
 @media only screen and (min-width: 481px) and (max-width: 779px) {
@@ -187,6 +193,17 @@
     .sidenav a {font-size: 18px;}
     .ham-icon{
         display: block;
+    }
+    .phone-div{
+        position: absolute;
+        z-index: 10;
+        margin-top: -24%;
+    }
+    .phone{
+        top: 0;
+        left: 0;
+        width: 100%;
+        position: absolute;
     }
 }
 
